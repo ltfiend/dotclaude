@@ -18,10 +18,7 @@ their own GitHub repos:
 | File / dir | What it is |
 |---|---|
 | `settings.json` | User settings: permissions, model, hooks, statusline, enabled plugins |
-| `CLAUDE.md` | Global instructions loaded into every session |
 | `hooks/` | `log-prompts.sh` (prompt journal), `check-prompts-in-git.sh` (blocks committing `PROMPTS.md`), `check-ssh-agent.sh` (ssh-agent sanity check) |
-| `STATUSLINE.md` | Statusline segment documentation |
-| `statusline-ideas.md` | Statusline enhancement notes |
 | `install.sh` | Symlinks everything above into `~/.claude` |
 
 ## Install

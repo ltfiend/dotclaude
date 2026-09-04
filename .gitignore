@@ -6,3 +6,8 @@ settings.local.json
 
 # Backups created by install.sh.
 *.bak.*
+
+# Kept local-only.
+CLAUDE.md
+STATUSLINE.md
+statusline-ideas.md
