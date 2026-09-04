@@ -1,0 +1,9 @@
+[submodule "statusline"]
+	path = statusline
+	url = https://github.com/ltfiend/claude-statusline.git
+[submodule "skills/dns-expert"]
+	path = skills/dns-expert
+	url = https://github.com/ltfiend/claude-dns-skill.git
+[submodule "skills/bind-admin"]
+	path = skills/bind-admin
+	url = https://github.com/ltfiend/claude-bind-skill.git
