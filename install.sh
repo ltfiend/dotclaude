@@ -44,6 +44,7 @@ link() {
 }
 
 link "$REPO_DIR/settings.json"        "$CLAUDE_DIR/settings.json"
+link "$REPO_DIR/claude-resume.sh"     "$CLAUDE_DIR/claude-resume.sh"
 link "$REPO_DIR/hooks"                "$CLAUDE_DIR/hooks"
 link "$REPO_DIR/skills/dns-expert"    "$CLAUDE_DIR/skills/dns-expert"
 link "$REPO_DIR/skills/bind-admin"    "$CLAUDE_DIR/skills/bind-admin"

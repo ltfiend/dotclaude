@@ -56,6 +56,17 @@
           }
         ]
       }
+    ],
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "~/.claude/hooks/save-resume.sh",
+            "timeout": 5
+          }
+        ]
+      }
     ]
   },
   "statusLine": {
