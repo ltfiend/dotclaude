@@ -7,3 +7,6 @@
 [submodule "skills/bind-admin"]
 	path = skills/bind-admin
 	url = https://github.com/ltfiend/claude-bind-skill.git
+[submodule "agents/rfc-engineer"]
+	path = agents/rfc-engineer
+	url = https://github.com/ltfiend/claude-agent-rfc-engineer.git

@@ -18,7 +18,7 @@ if [ -d "$REPO_DIR/.git" ] || [ -f "$REPO_DIR/.git" ]; then
     git -C "$REPO_DIR" submodule update --init --recursive
 fi
 
-mkdir -p "$CLAUDE_DIR/skills"
+mkdir -p "$CLAUDE_DIR/skills" "$CLAUDE_DIR/agents"
 
 link() {
     local src="$1" dst="$2"
@@ -48,6 +48,7 @@ link "$REPO_DIR/claude-resume.sh"     "$CLAUDE_DIR/claude-resume.sh"
 link "$REPO_DIR/hooks"                "$CLAUDE_DIR/hooks"
 link "$REPO_DIR/skills/dns-expert"    "$CLAUDE_DIR/skills/dns-expert"
 link "$REPO_DIR/skills/bind-admin"    "$CLAUDE_DIR/skills/bind-admin"
+link "$REPO_DIR/agents/rfc-engineer/rfc-engineer.md" "$CLAUDE_DIR/agents/rfc-engineer.md"
 link "$REPO_DIR/statusline/statusline.sh"  "$CLAUDE_DIR/statusline.sh"
 link "$REPO_DIR/statusline/statusline.png" "$CLAUDE_DIR/statusline.png"
 
