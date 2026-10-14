@@ -1,4 +1,7 @@
 {
+  "env": {
+    "DISABLE_AUTOUPDATER": "1"
+  },
   "attribution": {
     "commit": "",
     "pr": "",
@@ -24,9 +27,6 @@
     ]
   },
   "model": "claude-fable-5[1m]",
-  "env": {
-    "DISABLE_AUTOUPDATER": "1"
-  },
   "enableAllProjectMcpServers": true,
   "hooks": {
     "PreToolUse": [
@@ -80,6 +80,7 @@
     "clangd-lsp@claude-plugins-official": true,
     "frontend-design@claude-plugins-official": true
   },
+  "theme": "dark",
   "editorMode": "vim",
   "agentPushNotifEnabled": true
 }
